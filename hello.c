@@ -35,7 +35,7 @@ int mod(int x,int y)
 {
     return x%y;
 }
-
+//hi
 int square(int x)
 {
     return x*x;
