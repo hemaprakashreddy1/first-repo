@@ -6,6 +6,16 @@ void swap(int *x,int *y)
     *y=t;
 }
 
+void factorial(int num)
+{
+    int fact=1;
+    while(num>=1)
+    {
+        fact=fact*num;
+        num--;
+    }
+}
+
 int main()
 {
     char str[100];
