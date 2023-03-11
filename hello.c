@@ -36,6 +36,11 @@ int mod(int x,int y)
     return x%y;
 }
 
+int square(int x)
+{
+    return x*x;
+}
+
 int main()
 {
     char str[100];
