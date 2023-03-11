@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main()
 {
+    char str[100];
+    scanf("%s",str);
     printf("hello world\n");
-    printf("modified for second commit");
+    printf("for second commit");
     printf("checking pull");
     printf("conflict occured");
     return 0;
