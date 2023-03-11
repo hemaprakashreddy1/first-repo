@@ -36,6 +36,11 @@ int mod(int x,int y)
     return x%y;
 }
 
+int div2(int x)
+{
+    return x/2;
+}
+
 int main()
 {
     char str[100];
