@@ -6,6 +6,11 @@ void swap(int *x,int *y)
     *y=t;
 }
 
+int add(int x.int y)
+{
+    return x+y;
+}
+
 void factorial(int num)
 {
     int fact=1;
