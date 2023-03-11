@@ -31,6 +31,11 @@ int div(int x,int y)
     return x/y;
 }
 
+int mod(int x,int y)
+{
+    return x%y;
+}
+
 int main()
 {
     char str[100];
