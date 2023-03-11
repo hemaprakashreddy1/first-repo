@@ -6,6 +6,6 @@ int main()
     printf("hello world\n");
     printf("for second commit");
     printf("checking pull");
-    printf("conflict occured");
+    printf("conflict occure");
     return 0;
 }
