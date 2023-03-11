@@ -40,6 +40,7 @@ int div2(int x)
 {
     return x/2;
 }
+//hello
 int square(int x)
 {
     return x*x;
