@@ -1,22 +1,22 @@
 #include <stdio.h>
-void swap(int *x,int *y)
+void swappped(int *x,int *y)
 {
     int t=*x;
     *x=*y;
     *y=t;
 }
 
-int add(int x.int y)
+void addition(int x,int y)
 {
-    return x+y;
+    printf("%d",x+y);
 }
 
 void factorial(int num)
 {
-    int fact=1;
+    int factorial=1;
     while(num>=1)
     {
-        fact=fact*num;
+        factorial=factorial*num;
         num--;
     }
 }
@@ -42,9 +42,9 @@ int div2(int x)
 }
 //hello
 //hi
-int square(int x)
+void square_square(int x)
 {
-    return x*x;
+    printf("%d", x*x);
 }
 
 int main()
