@@ -25,10 +25,9 @@ int sub(int x,int y)
 {
     return x-y;
 }
-
-int div(int x,int y)
+void hello()
 {
-    return x/y;
+    printf("hello\n");
 }
 
 int mod(int x,int y)
